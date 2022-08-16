@@ -3,7 +3,7 @@
  
 | chapter |title| start | finish |process|
 | :-----:| :----: | :----: |:----: |:----: |
-|ch1|服务架构演进史|2022-08-15||%|
+|ch1|服务架构演进史|2022-08-15|2022-08-15|5.38%|
 |ch2|访问远程服务|2022-08-|2022-08-|%|
 
 
@@ -13,7 +13,7 @@ gantt
 	axisFormat %Y
 	title reading time line
 	section ch1
-	0815: done,0001,0015
+	0815: done,0001,0022
 ```
 
 ```mermaid
@@ -22,7 +22,9 @@ gantt
     title Reading Timeline
     dateFormat  YYYY-MM-DD
     section Part 1
-    ch1 : active, 2022-08-15,2022-08-16
+    ch1 : done, 2022-08-15,2022-08-16
+    section Part 2
+    ch1 : active, 2022-08-17,2022-08-27
 ```
 
 ```mermaid
@@ -30,9 +32,9 @@ gantt
 	dateFormat YYYY
 	axisFormat %Y
 	title reading time line
-	process: crit,0001,0015
+	process: crit,0001,0022
 	section Section 1
-	ch1: done,0001,0023
+	ch1: done,0001,0022
 	section Section 2
 	ch2: 0023,0047
 	ch3: 0048,0074
